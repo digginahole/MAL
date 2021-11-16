@@ -2,14 +2,13 @@ body{
     text-align: center;
 }
 .introduction {
-    max-width: 640px;
-    text-align: center;
+    color: #AA5500;
 }
 .pitch {
-    max-width: 640px;
-    text-align: center;
+    color: #00AA00;
+    
 }
 .stanky {
     margin: 0 auto;
-    max-width:80%
+    
 }
