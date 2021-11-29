@@ -1,9 +1,4 @@
 
-
-
-
-
-
 body{
     display: grid;
     grid-template-columns: 100px auto 20% 20%;
