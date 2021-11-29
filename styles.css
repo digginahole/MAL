@@ -8,6 +8,8 @@ body{
     display: grid;
     grid-template-columns: 100px auto 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
+    background-image: url('images/mersszz/IMG_20211026_175232.jpg');
+    background-size: 100%;
 }
 .intro {
     grid-column: 2;
