@@ -1,14 +1,22 @@
+
+
+
+
+
+
 body{
-    text-align: center;
+    display: grid;
+    grid-template-columns: 100px auto 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
 }
-.introduction {
-    color: #AA5500;
+.intro {
+    grid-column: 2;
+    padding: 20px;
+    background-color: lightgrey;
 }
-.pitch {
-    color: #00AA00;
-    
-}
-.stanky {
-    margin: 0 auto;
+nav {
+    border-radius: 4px;
+    background-color: grey;
+    grid-column: 1;
     
 }
