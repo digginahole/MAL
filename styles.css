@@ -20,5 +20,6 @@ nav {
     border-radius: 4px;
     background-color: grey;
     grid-column: 1;
+    text-align: left;
     
 }
