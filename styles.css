@@ -1,8 +1,8 @@
 
 body{
     display: grid;
-    grid-template-columns: 70px auto 20% 20%;
-    grid-template-rows: 175px 20% 20% 20% 20%;
+    grid-template-columns: 70px auto 40%;
+    grid-template-rows: 175px auto;
     background-image: url('images/mersszz/IMG_20211026_175232.jpg');
     background-size: 100%;
     text-align: left;
