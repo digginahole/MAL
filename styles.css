@@ -2,7 +2,7 @@
 
 body{
     display: grid;
-    grid-template-columns: 70px auto 40%;
+    grid-template-columns: 100px auto 40%;
     grid-template-rows: 175px auto;
     background-image: url('images/mersszz/IMG_20211026_175232.jpg');
     background-size: 100%;
@@ -27,9 +27,19 @@ nav {
     font-style: oblique;
     
 }
-
-.pictures {
-    color:white;
+button {
+    background: rgba(150, 150, 150, 0.7);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100px;
+}
+button:hover {
+    background: rgb(90, 90, 90, 1.0);
 }
 .pic {
     width: 40%;
