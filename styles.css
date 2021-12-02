@@ -3,7 +3,7 @@ bababoi
 
 **/
 
-body{
+body {
     display: grid;
     grid-template-columns: 100px auto auto;
     grid-template-rows: 175px auto auto 30px;
