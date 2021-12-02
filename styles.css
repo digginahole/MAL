@@ -5,8 +5,8 @@ bababoi
 
 body{
     display: grid;
-    grid-template-columns: 100px auto 40%;
-    grid-template-rows: 175px auto 30px;
+    grid-template-columns: 100px auto auto;
+    grid-template-rows: 175px auto auto 30px;
     background-image: url('images/mersszz/IMG_20211026_175232.jpg');
     background-size: 100%;
     background-position: center;
@@ -74,4 +74,9 @@ footer {
     text-align: center;
     color: white;
     grid-column: 1/3;
+}
+.backtotop {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
